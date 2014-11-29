@@ -20,3 +20,4 @@ fun fold f acc xs =
 fun sum xs = fold (fn (x, y) => x + y) 0 xs
 
 val S = sum [1,2,3,4,5]
+
